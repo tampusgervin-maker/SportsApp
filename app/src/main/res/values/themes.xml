@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.SportsApp" parent="Theme.Material3.Light">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#E9DDFF</item>
+        <item name="colorOnPrimaryContainer">#21005D</item>
+        <item name="colorSecondaryContainer">#E9DDFF</item>
+        <item name="colorOnSecondaryContainer">#21005D</item>
+        <item name="android:statusBarColor">#3700B3</item>
+    </style>
+
+    <style name="SportButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="iconPadding">12dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+</resources>

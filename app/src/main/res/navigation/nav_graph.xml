@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Top-level destinations (bottom bar) -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sportsapp.HomeFragment"
+        android:label="@string/home">
+        <action android:id="@+id/action_home_to_mySports" app:destination="@id/mySportsFragment" />
+        <action android:id="@+id/action_home_to_football" app:destination="@id/footballFragment" />
+        <action android:id="@+id/action_home_to_basketball" app:destination="@id/basketballFragment" />
+        <action android:id="@+id/action_home_to_tennis" app:destination="@id/tennisFragment" />
+        <action android:id="@+id/action_home_to_swimming" app:destination="@id/swimmingFragment" />
+        <action android:id="@+id/action_home_to_running" app:destination="@id/runningFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.sportsapp.AccountFragment"
+        android:label="@string/account" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.sportsapp.ProfileFragment"
+        android:label="@string/profile" />
+
+    <fragment
+        android:id="@+id/mySportsFragment"
+        android:name="com.example.sportsapp.MySportsFragment"
+        android:label="@string/my_sports">
+        <action android:id="@+id/action_mySports_to_football" app:destination="@id/footballFragment" />
+        <action android:id="@+id/action_mySports_to_basketball" app:destination="@id/basketballFragment" />
+        <action android:id="@+id/action_mySports_to_tennis" app:destination="@id/tennisFragment" />
+        <action android:id="@+id/action_mySports_to_swimming" app:destination="@id/swimmingFragment" />
+        <action android:id="@+id/action_mySports_to_running" app:destination="@id/runningFragment" />
+    </fragment>
+
+    <!-- Secondary destinations (sports), all backed by SportFragment -->
+    <fragment
+        android:id="@+id/footballFragment"
+        android:name="com.example.sportsapp.SportFragment"
+        android:label="@string/football">
+        <argument android:name="sportName" app:argType="string" android:defaultValue="Football" />
+        <argument android:name="sportDescription" app:argType="string" android:defaultValue="Two teams of eleven compete to score goals." />
+    </fragment>
+
+    <fragment
+        android:id="@+id/basketballFragment"
+        android:name="com.example.sportsapp.SportFragment"
+        android:label="@string/basketball">
+        <argument android:name="sportName" app:argType="string" android:defaultValue="Basketball" />
+        <argument android:name="sportDescription" app:argType="string" android:defaultValue="Two teams of five shoot the ball through a hoop." />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tennisFragment"
+        android:name="com.example.sportsapp.SportFragment"
+        android:label="@string/tennis">
+        <argument android:name="sportName" app:argType="string" android:defaultValue="Tennis" />
+        <argument android:name="sportDescription" app:argType="string" android:defaultValue="Players hit a ball over a net with rackets." />
+    </fragment>
+
+    <fragment
+        android:id="@+id/swimmingFragment"
+        android:name="com.example.sportsapp.SportFragment"
+        android:label="@string/swimming">
+        <argument android:name="sportName" app:argType="string" android:defaultValue="Swimming" />
+        <argument android:name="sportDescription" app:argType="string" android:defaultValue="Race through water using different strokes." />
+    </fragment>
+
+    <fragment
+        android:id="@+id/runningFragment"
+        android:name="com.example.sportsapp.SportFragment"
+        android:label="@string/running">
+        <argument android:name="sportName" app:argType="string" android:defaultValue="Running" />
+        <argument android:name="sportDescription" app:argType="string" android:defaultValue="Track, road and trail running for all distances." />
+    </fragment>
+</navigation>

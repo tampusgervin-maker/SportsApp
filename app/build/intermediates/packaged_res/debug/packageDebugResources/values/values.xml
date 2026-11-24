@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account">Account</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="app_name">Sports App</string>
+    <string name="basketball">Basketball</string>
+    <string name="basketball_desc">Two teams of five shoot the ball through a hoop.</string>
+    <string name="choose_sport">Choose a sport</string>
+    <string name="explore_my_sports">Explore All Sports</string>
+    <string name="featured_sports">Featured Sports</string>
+    <string name="football">Football</string>
+    <string name="football_desc">Two teams of eleven compete to score goals.</string>
+    <string name="home">Home</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="latest_news">Latest News</string>
+    <string name="my_sports">My Sports</string>
+    <string name="no_sports_found">No sports found matching your search.</string>
+    <string name="profile">Profile</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="running">Running</string>
+    <string name="running_desc">Track, road and trail running for all distances.</string>
+    <string name="search_sports_hint">Search sports...</string>
+    <string name="swimming">Swimming</string>
+    <string name="swimming_desc">Race through water using different strokes.</string>
+    <string name="tennis">Tennis</string>
+    <string name="tennis_desc">Players hit a ball over a net with rackets.</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="welcome_subtitle">Stay updated with your favorite sports, upcoming events, and latest news.</string>
+    <string name="welcome_title">Welcome to Sports App</string>
+    <style name="SportButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="iconPadding">12dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+    <style name="Theme.SportsApp" parent="Theme.Material3.Light">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#E9DDFF</item>
+        <item name="colorOnPrimaryContainer">#21005D</item>
+        <item name="colorSecondaryContainer">#E9DDFF</item>
+        <item name="colorOnSecondaryContainer">#21005D</item>
+        <item name="android:statusBarColor">#3700B3</item>
+    </style>
+</resources>

@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.example.sportsapp-debug-47:/layout_fragment_home.xml.flat",
+        "source": "com.example.sportsapp-main-49:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_bg_search_bar.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_running.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_running.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\layout_fragment_label.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\layout\\fragment_label.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/layout_fragment_my_sports.xml.flat",
+        "source": "com.example.sportsapp-main-49:/layout/fragment_my_sports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\layout_fragment_sport.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\layout\\fragment_sport.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\drawable_ic_account.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\drawable\\ic_account.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/layout_fragment_sport.xml.flat",
+        "source": "com.example.sportsapp-main-49:/layout/fragment_sport.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\drawable_ic_sports.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\drawable\\ic_sports.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_basketball.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_basketball.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_event.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_event.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_swimming.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_swimming.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_tennis.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_tennis.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_news.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_news.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_search.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\layout_fragment_my_sports.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\layout\\fragment_my_sports.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/drawable_ic_football.xml.flat",
+        "source": "com.example.sportsapp-main-49:/drawable/ic_football.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-debug-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lea\\.gradle\\daemon\\8.7\\com.example.sportsapp-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.sportsapp-debug-47:/navigation_nav_graph.xml.flat",
+        "source": "com.example.sportsapp-main-49:/navigation/nav_graph.xml"
+    }
+]
